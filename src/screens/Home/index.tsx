@@ -50,7 +50,7 @@ export default function Home() {
         )}
         showsVerticalScrollIndicator={false}
         ListEmptyComponent={() => (
-          <Text style={styles.listEmptyText}>
+          <Text style={Style.listEmptyText}>
             Nenhum participante no momento
           </Text>
         )}
