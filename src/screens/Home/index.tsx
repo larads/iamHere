@@ -23,7 +23,7 @@ export default function Home() {
       "Remover ",`Deseja Remover o/a participante ${name} ?`, [
         {
           text: "Sim",
-          onPress: () => Alert.alert("Deletado!")
+          onPress: () => setParticipants(prevState => prevState.filter(participant => participant !== name))
         },
         {
           text: "Não",
