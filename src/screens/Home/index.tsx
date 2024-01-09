@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <View style={Style.container}>
       <Text style={Style.eventName}>
-        Mariana
+        Mariana da Silva
       </Text>
 
       <Text style={Style.eventDate}>
